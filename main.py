@@ -20,6 +20,7 @@ T_PRINT = "print"
 T_MATH = "math"
 T_EXIT = "exit()"
 T_MEM = "mem()"
+T_EQ = "="
 
 try:
   for i in cMain:
