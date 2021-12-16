@@ -1,0 +1,3 @@
+var sus :int = 5
+math sus + :int 5
+print :var sus
