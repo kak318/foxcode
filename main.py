@@ -1,4 +1,3 @@
-#main = 'var x :int'
 f = open("main.fox", "r")
 main = f.read()
 f.close()
@@ -8,6 +7,8 @@ cur = ""
 pos = 0
 
 mem = {}
+
+cMain = main.split()
 
 T_VAR = "var"
 T_STR = ":str"
@@ -19,8 +20,6 @@ T_PRINT = "print"
 T_MATH = "math"
 T_EXIT = "exit()"
 T_MEM = "mem()"
-
-cMain = main.split()
 
 try:
   for i in cMain:
