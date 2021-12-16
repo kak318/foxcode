@@ -6,7 +6,7 @@ Usage
 `math [variable] [+ | - | / | * | =] [:int | :var] [value]` - math operations</br>
 `mem()` - display variables in the memory</br>
 `exit()` - exit the program</br>
-All Tokens
+All Tokens</br>
 ---
 ```
 T_VAR = "var"
